@@ -20,14 +20,4 @@ class Player(GameSprite):
         if keys_pressed [K_DOWN]:# and self.rect.y> 5:
             self.rect.у -= self.speed
 
-class Enemy(GameSprite):
-    def update(self):
-        if self.rect.x <= 47:
-            self.direction = "right"
-        if self.rect.x >= 600:
-            self.direction = "left"
-        if self.direction=="right":
-            self.rect.x +=  self.speed
-        else:
-            self.rect.x -= self.speed
-enemy = Enemy ('shrek.jpg',80,100,2)
+
