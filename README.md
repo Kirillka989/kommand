@@ -30,4 +30,4 @@ class Enemy(GameSprite):
             self.rect.x +=  self.speed
         else:
             self.rect.x -= self.speed
-enemy = Enemy ('doctor.jpg',80,100,2)
+enemy = Enemy ('shrek.jpg',80,100,2)
